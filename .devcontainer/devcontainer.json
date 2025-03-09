@@ -1,0 +1,26 @@
+{
+    "name": "C# .NET 8 Dev Container",
+    "image": "mcr.microsoft.com/devcontainers/dotnet:8.0",
+    "features": {
+      "ghcr.io/devcontainers/features/dotnet:1": {
+        "version": "8.0"
+      }
+    },
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-dotnettools.csharp",
+          "eamodio.gitlens",
+          "editorconfig.editorconfig",
+          "visualstudioexptteam.vscodeintellicode"
+        ]
+      }
+    },
+    "forwardPorts": [5000, 5001],  
+    "postCreateCommand": "dotnet --version && dotnet new console -o /workspace/app",  
+    "remoteUser": "vscode",
+    "mounts": [
+      "source=/mnt/c/Users/Public/Documents,target=/workspace/shared,type=bind"
+    ]
+  }
+  
