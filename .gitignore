@@ -5,3 +5,10 @@ TutorialConcurrency/bin/Debug/net8.0/
 TutorialConcurrency/obj/*
 TutorialConcurrency/bin/Debug/net8.0/TutorialConcurrency
 TutorialConcurrency/bin/Debug/net8.0/TutorialConcurrency.dll
+TestAsyncDeadLockWithWinform/bin/*
+TestAsyncDeadLockWithWinform/obj/*
+TestAsyncDeadLockWithWinform/bin/*
+TestAsyncDeadLockWithWinform/obj/*
+TestAsyncDeadLockWithConsole/bin/Debug/net9.0/Newtonsoft.Json.dll
+TestAsyncDeadLockWithConsole/bin/*
+TestAsyncDeadLockWithConsole/obj/*
